@@ -1,2 +1,9 @@
 pull_requests from a fork doesn't automatically trigger the workflow. It needs approval first. This is for security reasons; as not any body can 
 trigger my workflow, specially if my repo is a public one.
+
+How to skip a workflow?
+Let's say that you just added a comment. surely, you don't want this to trigger the workfloe.
+Solution:
+In your comit message add [skip actions] or [skip ci]
+ex:
+git commit -m "your message [skip actions]"
