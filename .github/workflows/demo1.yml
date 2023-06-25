@@ -1,6 +1,6 @@
 name: Events Demo 1
 on: 
-  pull_request:
+  pull_request:         #pull_requests from a fork doesn't automatically trigger the workflow. It needs approval first. This is for security reasons; as not any body can #trigger my workflow, specially if my repo is a public one.
     types:
       - opened
     branches:
